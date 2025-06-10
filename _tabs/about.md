@@ -8,7 +8,7 @@ order: 4
 
 # Hello!
 
-![About](/assets/img/linkedin-banner.jpg)
+![About](/assets/img/linkedin-banner.JPG)
 
 My name is Salih, a `Technical Communications` graduate from `The Ohio State University` and currently working as a `Freelance Technical Writer` in the US.
 
