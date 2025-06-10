@@ -6,10 +6,9 @@ order: 4
 
 [comment]: <> (> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page. {: .prompt-tip })
 
-# Hello!
-
 ![About](/assets/img/linkedin-banner.JPG)
 
+# Hello!
 My name is Salih, a `Technical Communications` graduate from `The Ohio State University` and currently working as a `Freelance Technical Writer` in the US.
 
 ## Education
