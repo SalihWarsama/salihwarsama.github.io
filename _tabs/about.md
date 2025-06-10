@@ -12,7 +12,7 @@ order: 4
 
 My name is Salih, a `Technical Communications` graduate from `The Ohio State University` and currently working as a `Freelance Technical Writer` in the US.
 
-At Ohio State, I did a lot of `User Experience(UX) Research` and created several studies with my collegues to collect and analyze users' problems in various product designs, with my most notable study being the `Google AI Overview`. My team effectively pinpointed user pain points of these designs and created prototypes that users found more satisfactory, backed by statistically significant data.
+At Ohio State, I did a lot of `User Experience(UX)` research and created several studies with my collegues to collect and analyze users' problems in various product designs, with my most notable study being the `Google AI Overview`. My team effectively pinpointed user pain points of these designs and created prototypes that users found more satisfactory, backed by statistically significant data.
 
 After graduating, my gears shifted. Sure, I still enjoyed helping others through research and data analytics, but I wanted to help *more* people with *more* things, outside of just design. So, I decided to create tutorials and such for others online, which at the time **I didn't even know was an occupation!**
 
