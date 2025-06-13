@@ -3,6 +3,8 @@ My name is Salih, a `Technical Communications` graduate from `The Ohio State Uni
 - [My Github Portfolio](https://github.com/SalihWarsama/)
 - [My LinkedIn](https://www.linkedin.com/in/salihwarsama/)
 
+Feel free to reach out to me through email: [](salihwarsama@gmail.com).
+
 # Purpose of this Site
 This site is where I will create various and engaging forms of technical documentation that cover various types of topics, products, and services for *no charge* and for *all to use!* I will also post about general technical topics, concepts, how-to guides, tutorials, recommendations, and more.
 
