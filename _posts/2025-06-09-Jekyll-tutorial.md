@@ -1,6 +1,6 @@
 ---
-title: Jekyll Tutorial
-date: 2025-06-09 23:36:00 -0500
+title: Jekyll Tutorial      # FM must either be COMPLETELY filled out or EMPTY between the lines for site to not break
+date: 2025-06-09 23:36:00 -0400
 categories: [Blogging, Tutorial]
 tags: [jekyll]     # TAG names should always be lowercase
 ---
