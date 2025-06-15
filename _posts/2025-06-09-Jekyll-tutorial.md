@@ -1,6 +1,6 @@
 ---
 title: Jekyll Tutorial
-date: YYYY-MM-DD HH:MM:SS +/-TTTT
+timezone: America/New_York
 categories: [Blogging, Tutorial]
 tags: [jekyll]     # TAG names should always be lowercase
 ---
