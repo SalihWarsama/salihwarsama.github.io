@@ -1,6 +1,6 @@
 ---
 title: Jekyll Tutorial
-timezone: America/New_York
+date: 2025-06-09 23:36:00 -0500
 categories: [Blogging, Tutorial]
 tags: [jekyll]     # TAG names should always be lowercase
 ---
