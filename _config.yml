@@ -29,7 +29,7 @@ github:
   username: salihwarsama # change to your GitHub username
 
 twitter:
-  username: warSALIH # change to your Twitter username
+  username: # change to your Twitter username
 
 social:
   # Change to your full name.
@@ -39,8 +39,8 @@ social:
   links:
     # The first element serves as the copyright owner's link
     - https://www.linkedin.com/in/salihwarsama/
-    - https://twitter.com/warSALIH/ # change to your Twitter homepage
     - https://github.com/SalihWarsama/ # change to your GitHub homepage
+    # - https://twitter.com/warSALIH/ # change to your Twitter homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
 
