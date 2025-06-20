@@ -10,11 +10,15 @@ image: /assets/img/linkedin-banner.JPG
 ## Firstly: Why SHOULD You?
 Blah blah blah, blah blah.
 
-### It's beneficial knowledge.
+#### It's beneficial knowledge.
+Learning technical skills is useful knowledge. 
 
-### It can be a fun hobby.
+#### It can be a fun hobby.
+Personally, I found great enjoyment learning things that I never thought I could do previously.
 
-### It can be utilized in a professional setting.
+#### It can be utilized in a professional setting.
+Technical knowledge is the type of knowledge that would differentiate somebody from getting hired or not.
 
+## Tip #1: Less = More
 
-## Less = More
+## Tip #2: 
