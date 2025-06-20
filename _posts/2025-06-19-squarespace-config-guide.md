@@ -5,4 +5,4 @@ categories: [Blogging, Guide]
 tags: [squarespace]     # TAG names should always be lowercase
 ---
 
-# Squarespace Domains Configuration Guide
+## 
