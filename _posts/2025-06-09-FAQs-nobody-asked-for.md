@@ -4,7 +4,7 @@ description: A small Q&A about my plans for this blog site that weren't covered 
 date: 2025-06-09 23:36:00 -0400
 categories: [Blogging, FAQs]
 tags: [q&a]     # TAG names should always be lowercase
-image: /assets/img/linkedin-banner.JPG
+image: /assets/img/FAQs.jpg
 ---
 
 ## test

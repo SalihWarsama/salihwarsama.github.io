@@ -4,7 +4,7 @@ description: A short tutorial of how to get a static site up and running using J
 date: 2025-06-09 23:41:00 -0400
 categories: [Blogging, Tutorial]
 tags: [jekyll]     # TAG names should always be lowercase
-image: /assets/img/linkedin-banner.JPG
+image: /assets/img/jekyll.png
 ---
 
 ## test
