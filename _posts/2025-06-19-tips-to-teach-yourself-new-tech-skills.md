@@ -4,7 +4,7 @@ description: A short discussion on the many ways you can quickly learn new tech 
 date: 2025-06-19 23:31:00 -0400
 categories: [Blogging, General]
 tags: [self-teach]     # TAG names should always be lowercase
-image: /assets/img/linkedin-banner.JPG
+image: /assets/img/info-tech.JPG
 ---
 
 ## Firstly: Why SHOULD You?
