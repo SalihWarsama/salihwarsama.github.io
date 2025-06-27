@@ -7,8 +7,8 @@ tags: [resources]     # TAG names should always be lowercase
 image: /assets/img/resources-image.jpg
 ---
 
-## test
-
 jekyll, scoop, g2/capterra, write the docs (software documentation guide & podcast playlist), linkedin-makeover, teal, wordcloud, chatgpt, idratherbewriting api doc blog course, coursera (audit courses), docs as code pdfs by lukas michta (link his linkedin), daily ux writing challenge site
 
 list what it is and what it does, as well as their pros and cons
+
+## test
