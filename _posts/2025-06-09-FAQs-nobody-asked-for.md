@@ -21,7 +21,7 @@ image: /assets/img/FAQs.jpg
 
 ## Where did you learn most of your skills?
 
-- Almost all of my skills, with the exception of a few UX skills I learned at OSU, I got from online. Either from auditing `Coursera` courses, `Youtube guides`, and blogs from people in the technical writing field, such as the [I’d Rather Be Writing blog](https://idratherbewriting.com/). However, it’s not like I learned *all* these new skills and decided I was ready to work, far from it! In fact, I took the time to really put my skills into practice, thanks to `VS Code` and the `Linux CLI`. After a while, I finally consolidated all the skills I learned into a single work: **this blog site**.
+- Almost all of my skills, with the exception of a few UX skills I learned at OSU, I got from online. Either from *auditing* `Coursera courses`, `Youtube guides`, and blogs from people in the technical writing field, such as the [I’d Rather Be Writing blog](https://idratherbewriting.com/). However, it’s not like I learned *all* these new skills and decided I was ready to work, far from it! In fact, I took the time to really put my skills into practice, thanks to `VS Code` and the `Linux CLI`. After a while, I finally consolidated all the skills I learned into a single work: **this blog site**.
 
 ## How would you convince somebody to pick up technical writing?
 
