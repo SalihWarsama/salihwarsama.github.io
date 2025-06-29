@@ -44,10 +44,10 @@ Jekyll is a static site generator that is operated primarily in the Command Line
   - Requires Markdown and YAML knowledge
   - Requires Git and Github knowledge (usually)
 
-## VS Code
+## Visual Studio Code
 ![VS Code](https://miro.medium.com/v2/resize:fit:1170/1*BnpPe7u0t-e8hHc-qEmgSQ.png)
 
-VS Code is an Integrated Development Environment(IDE) developed by Microsoft that provides a wide range of tools for programmers to develop, update, and maintain their software. VS Code supports most file types, has built in version control, Github integration, extensions, as well as a terminal for all command line tasks.
+Visual Studio Code is an Integrated Development Environment(IDE) developed by Microsoft that provides a wide range of tools for programmers to develop, update, and maintain their software. VS Code supports most file types, has built in version control, Github integration, extensions, as well as a terminal for all command line tasks.
 
 - **Benefits:**
   - Free
