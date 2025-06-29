@@ -148,7 +148,7 @@ This blog was created by Tom Johnson, an API technical writer in Seattle, to hel
 ## Coursera
 ![Coursera](https://media.licdn.com/dms/image/v2/D4D12AQHFNRDblsU1xQ/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1677528528545?e=2147483647&v=beta&t=eyPCiiFetWz9wC8A-2TM_Whvul7DwcZQouin8svwJfc)
 
-Coursera is a service that provides quality courses for a wide variety of fields of study. Many courses are officially created by specific companies to teach company tools, such as Amazon’s AWS Cloud Consulting courses. Coursera provides hundreds of paid courses that anyone may buy to earn a Coursera certificate, one that even can show up on your LinkedIn profile. Coursera also allows you to audit any course, gaining access to its content for free, at the cost of no longer receiving a certificate as well as progress tracking.
+Coursera is a service that provides quality courses for a wide variety of fields of study. Many courses are officially created by specific companies to teach company tools, such as Amazon’s AWS Cloud Consulting courses, or from famous universities to teach certain skills and subjects. Coursera provides hundreds of paid courses that anyone may buy to earn a Coursera certificate, one that even can show up on your LinkedIn profile. Coursera also allows you to audit any course, gaining access to its content for free, at the cost of no longer receiving a certificate as well as progress tracking.
 
 - **Benefits:**
   - Free courses with auditing
