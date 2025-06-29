@@ -23,7 +23,7 @@ Git is a free version control system operated on the Command Line Interface, and
   - Community collaboration 
   - Active support from creators
 - **Challenges:** 
-  - Requires basic-intermediate Command Line Interface knowledge`
+  - Requires basic-intermediate Command Line Interface knowledge
   - Requires a deep understanding of many Git commands
   - Requires a stable & efficient workflow
   - Collaboration not required but ideal
