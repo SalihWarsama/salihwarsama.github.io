@@ -119,7 +119,7 @@ ridk exec pacman.exe -Udd --noconfirm --noprogressbar mingw-w64-ucrt-x86_64-gcc-
 
 You should see the following pop up in the terminal:
 ```powershell
-warning: downgrading package mingw-w64-ucrt-x86_64-gcc-libs (15.1.0-1 ## > 14.2.0-3)
+warning: downgrading package mingw-w64-ucrt-x86_64-gcc-libs (15.1.0-1 => 14.2.0-3)
 ```
 
 Complete the downgrade, and run this command againin your terminal:
