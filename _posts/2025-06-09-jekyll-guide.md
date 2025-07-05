@@ -200,7 +200,7 @@ This will be the general structure of most of your posts going forward: frontmat
 
 Now, create a new file using the `YYYY-MM-DD-(file name)` format with the `.md` or `.markdown` extension, and open it. After opening the file, you need to create some frontmatter.
 
-Note: **frontmatter uses YAML**, even in Markdown files.
+*Note: **frontmatter uses YAML**, even in Markdown files.*
 
 ### Frontmatter
 To create some frontmatter within your post, create a block for it by adding 3 new lines and typing in 3 hyphens at the top and bottom, like so:
@@ -257,7 +257,7 @@ author: Salih Warsama
 Hello world! It’s great to be here.
 ```
 
-Note: Frontmatter information must be **completely filled out *or* completely blank** for your site to not break.
+*Note: Frontmatter must be **completely filled out** or **completely blank** for your site to not break.*
 
 Now, serve up your site again at the local host address. You should see what you wrote now!
 
