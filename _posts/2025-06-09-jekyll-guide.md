@@ -162,6 +162,8 @@ The terminal should link you the address to your site.
 
 If you’re unsure how to get to your site, just open up a new tab in your browser and type in `localhost:4000`. You should see your site with all the default settings.
 
+![Default Site](https://raw.githubusercontent.com/SalihWarsama/salihwarsama.github.io/34577169f887319d2742e7a882f4618d54565aec/assets/img/first-look-jekyll.png)
+
 As it currently is, you should see a white site using the default `Minima` theme. Take a look at everything, like the pre-made posts, the About page, the structure of the site, and more.
 
 In the future, to serve your site you’ll only need to type:
@@ -186,7 +188,14 @@ Where Jekyll employs YAML the most is in the _config.yml file and in the frontma
 This is where most of the data of the site is stored. In YAML format, it contains all the defaults to your site, like which gem files you’re using, themes, icons, links, etc. You should be able to see the default installed theme, which is “Minima”. This will ultimately vary depending on which theme you use, but for the purpose of this guide, just leave the config file alone until you become acclimated to the Jekyll structure and workflow.
 
 ### Creating Posts
-Before creating a post for your site, navigate to the _posts folder in your site’s directory, and view the premade file that exists. This will be the general structure of most of your posts going forward: frontmatter at the top between the lines, content at the bottom. Now, create a new file using the YYYY-MM-DD-(file name) format with the .md or .markdown extension, and open it. After opening the file, you need to create some frontmatter. Remember, frontmatter uses YAML, even in Markdown files.
+Before creating a post for your site, navigate to the `_posts` folder in your site’s directory, and view the premade file that exists.
+
+This will be the general structure of most of your posts going forward: frontmatter at the top between the lines, content at the bottom.
+
+Now, create a new file using the `YYYY-MM-DD-(file name)` format with the `.md` or `.markdown` extension, and open it. After opening the file, you need to create some frontmatter.
+
+> Remember, **frontmatter uses YAML**, even in Markdown files.
+{: prompt-info }
 
 ### Frontmatter
 To create some frontmatter within your post, create a block for it by adding 3 new lines and typing in 3 hyphens at the top and bottom, like so:
@@ -225,7 +234,11 @@ author: Salih Warsama
 ---
 ```
 
-To take a look at your changes, save everything, and type into your terminal “jekyll serve” and enter into your browser “localhost:4000”. Take a look at your new post and see if it shows up. You should see it empty, and that’s because you added no Markdown content. Go back into your editor, beneath the frontmatter, type in anything you want and save your changes. It should look something like this:
+To take a look at your changes, save everything, and type into your terminal `jekyll serve` and enter into your browser `localhost:4000`. Take a look at your new post and see if it shows up.
+
+![First Post](https://raw.githubusercontent.com/SalihWarsama/salihwarsama.github.io/34577169f887319d2742e7a882f4618d54565aec/assets/img/first-post-jekyll.png)
+
+You should see it empty, and that’s because you added no Markdown content. Go back into your editor, beneath the frontmatter, type in anything you want and save your changes. It should look something like this:
 
 ```yaml
 ---
@@ -239,10 +252,12 @@ author: Salih Warsama
 Hello world! It’s great to be here.
 ```
 
-> Frontmatter information must be **completely filled out** or **completely blank** for your site to not break.
+> Frontmatter information must be **completely filled out *or* completely blank** for your site to not break.
 {: prompt-warning }
 
 Now, serve up your site again at the local host address. You should see what you wrote now!
+
+![First Post Content](https://raw.githubusercontent.com/SalihWarsama/salihwarsama.github.io/34577169f887319d2742e7a882f4618d54565aec/assets/img/first-post-content.png)
 
 ### Markdown Formatting
 You should also know about how Markdown creates titles, headers, bullets, tables, pictures, and more.
