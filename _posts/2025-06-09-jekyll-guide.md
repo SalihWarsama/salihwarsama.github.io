@@ -122,7 +122,7 @@ You should see the following pop up in the terminal:
 warning: downgrading package mingw-w64-ucrt-x86_64-gcc-libs (15.1.0-1 => 14.2.0-3)
 ```
 
-Complete the downgrade, and run this command againin your terminal:
+Complete the downgrade, and run this command again in your terminal:
 
 ```powershell
 ridk exec gcc --version
@@ -141,3 +141,219 @@ It should install correctly by this point with no further errors.
 >If you're still getting an error, I recommend opening a Github issue on the public repository for the Ruby installer here.
 {: .prompt-info }
 
+## How to Create a Site
+To create a site, all you have to do is open the terminal, switch to your desired directory if you want, and type in: 
+
+```powershell
+jekyll new (name of your site)
+```
+
+And that’s it! Congratulations, you created your first Jekyll site.
+
+## How to "Serve" Your Site
+“Serving” is just another way of viewing or starting your website locally. To do that, simply type into your terminal:
+
+```powershell
+bundle exec jekyll serve
+```
+
+The terminal should link you the address to your site. 
+
+If you’re unsure how to get to your site, just open up a new tab in your browser and type in `localhost:4000`. You should see your site with all the default settings.
+
+As it currently is, you should see a white site using the default `Minima` theme. Take a look at everything, like the pre-made posts, the About page, the structure of the site, and more.
+
+In the future, to serve your site you’ll only need to type:
+
+```powershell
+jekyll serve
+```
+
+## How to Edit Your Site
+To understand how to edit your site, first you must understand what format or file types Jekyll employs for editing its contents.
+
+Jekyll primarily uses two file types: `YAML` and `Markdown`.
+
+**YAML**, which stands for *YAML Ain’t Markup Language*, is a data serialization language used for the storage, transfer, and configuration of data. It’s relatively simple, human-readable, and an easy to learn type of data "container".
+
+**Markdown** is a markup language that uses plain text to format plain text, having the ability to add titles, headers, paragraphs, tables, and more.
+It’s extremely easy to use, requires no prior HTML or CSS knowledge to use, and is lightweight and consistent across any device.
+
+Where Jekyll employs YAML the most is in the _config.yml file and in the frontmatter of Jekyll posts (explained soon). Beneath the frontmatter, where the general content of Jekyll posts exist, is mostly in Markdown.
+
+### Config file
+This is where most of the data of the site is stored. In YAML format, it contains all the defaults to your site, like which gem files you’re using, themes, icons, links, etc. You should be able to see the default installed theme, which is “Minima”. This will ultimately vary depending on which theme you use, but for the purpose of this guide, just leave the config file alone until you become acclimated to the Jekyll structure and workflow.
+
+### Creating Posts
+Before creating a post for your site, navigate to the _posts folder in your site’s directory, and view the premade file that exists. This will be the general structure of most of your posts going forward: frontmatter at the top between the lines, content at the bottom. Now, create a new file using the YYYY-MM-DD-(file name) format with the .md or .markdown extension, and open it. After opening the file, you need to create some frontmatter. Remember, frontmatter uses YAML, even in Markdown files.
+
+### Frontmatter (disclaimer: must be blank or completely filled out for site to not break)
+To create some frontmatter within your post, create a block for it by adding 3 new lines and typing in 3 hyphens at the top and bottom, like so:
+
+```yaml
+---
+
+---
+```
+
+The middle is where the YAML frontmatter will be added. Remember, YAML acts as the "container" of our Jekyll site's data, so fill in the gap between the hyphens like a container.
+
+The standard frontmatter that you should add for every post is as follows:
+
+```yaml
+---
+layout:
+title:
+description: 
+date:
+author:  
+---
+```
+
+These frontmatter elements are universal to all Jekyll themes, with Layout being the only one that is specific to your Jekyll theme. The default theme `Minima` comes with many different types of layouts, and the most common type of layouts you will use with this theme (if you don’t change themes) are Post and Page.
+
+Since you’re in the _posts directory, you will fill this in as a Post. Typical frontmatter settings would look like so:
+
+```yaml
+---
+layout: post
+title: My First Post
+description: This is the first Jekyll post I’ve ever created!
+date: 2025-06-10 23:41:00 -0400 ## (<< for EST adjustment)
+author: Salih Warsama
+---
+```
+
+To take a look at your changes, save everything, and type into your terminal “jekyll serve” and enter into your browser “localhost:4000”. Take a look at your new post and see if it shows up. You should see it empty, and that’s because you added no Markdown content. Go back into your editor, beneath the frontmatter, type in anything you want and save your changes. It should look something like this:
+
+```yaml
+---
+layout: post
+title: My First Post
+description: This is the first Jekyll post I’ve ever created!
+date: 2025-06-10 23:41:00 -0400 ## (<< for EST adjustment)
+author: Salih Warsama
+---
+
+Hello world! It’s great to be here.
+```
+
+Now, serve up your site again at the local host address. You should see what you wrote now!
+You should know about how Markdown creates titles, headers, bullets, tables, pictures, and more.
+
+Here’s a file setup that displays some of the many ways you can format within Markdown for your Jekyll posts:
+
+```markdown
+# Title
+
+## Subheading
+
+This is a test for my markdown file.
+
+more text
+
+- first
+- second
+- third
+  - indent  
+    1. inner number
+
+[this is the description for an embedded link](https://www.github.com)
+
+This paragraph has some `variable` inline code
+
+![alt text that appears on the picture](https://picsum.photos/200/200)
+
+Some paragraph with text
+> blockquote text below the paragraph
+
+| table heading | table header | table head |
+| --- | --- | --- |
+| content | more content | text |
+| more | more | more |
+
+This is being *created* on a **Friday** ~~Saturday~~.
+Serve this and see how it looks on your site!
+```
+
+As I said, the `Minima` theme allows you to create pages as well. To create a page, create a new folder called _pages, open the folder, and create a new markdown file with the .md extension.
+
+Add frontmatter elements, like how you did for your first post above, but instead of the “post” layout, enter “page” into layout:
+
+```yaml
+---
+layout: page
+title: My First Page
+description: This is the first Jekyll page I’ve ever created!
+date: 2025-06-10 23:41:00 -0400 ## (<< for EST adjustment)
+author: Salih Warsama
+---
+```
+
+It should look a lot like the Home and About pages.
+
+Posts are generally more important than Pages for Jekyll when you’re first starting, since Pages are a little more advanced. So for the purposes of this guide, I won’t go any further in depth.
+
+For more information on Pages in Jekyll, I recommend watching [this tutorial](https://www.youtube.com/watch?v=1na-IWfv08M&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB&index=9).
+
+## Themes
+Themes are very important within Jekyll, in fact, it’s probably one of the first things you want to decide on when creating a site. Sure, the Minima theme is nice, minimal, and has a lot of functionality–a lot more functionality than most themes you’ll come across actually–but it may not be what you want.
+
+Don’t worry, there are plenty of themes out there, both free and paid. If you want to change your theme, first you have to find your theme online.
+
+The best place to look for free Jekyll themes is [Jamstack Themes](https://jamstackthemes.dev/ssg/jekyll/). Check out all the themes they have through their demos, and when you find a theme you like, just click on “Github” and scroll to the README section beneath the code, which is where you’ll usually find instructions on how to install and apply the theme.
+
+## Working with Git
+This section will assume that you: already have Git installed, and have a basic understanding of Git and its workflow.
+
+The Git workflow pairs perfectly with Jekyll, especially since Jekyll automatically creates the ideal `.gitignore` file and makes maintaining your site a lot better and more efficient.
+
+To take advantage of these benefits, simply open up your terminal window, navigate to the directory your website was created in, and type in:
+
+```powershell
+git init
+```
+
+Now you’ll be able to make changes in your files, like your posts, stage them, and commit them with a message, taking full advantage of all the benefits that Git’s version control offers.
+
+## Working with Github and Pages
+This section will assume that you: already have a Github account, and have a basic understanding of Github and its workflow.
+
+Github is also a great thing to utilize alongside Git when it comes to maintaining your site. With Github, you’ll be able to store your files on the cloud, update and retrieve them whenever you like, and revert any changes if necessary.
+
+First, go into your site’s `_config.yml` file, and update the `baseurl` variable’s value to *match your website’s name*.
+
+Since you created your site locally and already initialized a Git repository, all you have to do is:
+
+- Create a repository on Github.
+- Give it the same name as your website and the baseurl in your `_config.yml` file.
+- Then type into your terminal:
+  - `git remote add origin (your new github repository’s url)`
+- Finally type in `git push -u origin master`.
+
+Now, you’ve created a connection between your local Git repository and the cloud repository on Github for your site. Remember to keep them both up to date.
+
+Now that your site is stored in a repository on Github, you’ll have access to free website hosting through `Github Pages`.
+
+You’ll be able to view your website at: `(Github-username).github.io/(repository-name)/`. 
+
+## Closing
+You now have the skills to create, maintain, and customize any Jekyll site you create.
+
+If you want to learn more about Jekyll or just a more in-depth understanding on what you can do in Jekyll, I highly recommend checking out [Giraffe Academy's Jekyll tutorial on Youtube](https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB).
+
+It’s highly informative and extremely helpful when it comes to the customization aspect.
+
+>Keep in mind that the tutorial is a little dated, but I think it’s still helpful to the average individual seeking to learn Jekyll.
+{: .prompt-info }
+
+### Some Advice
+When it comes to maintaining your Jekyll sites: **always start with an outline**.
+
+If you like details and you want your vision of what you want to make to actually have a form before trying to code it into your site, I highly recommend that you start with some sort of outline.
+
+List out all the titles, headers, formatting, and the content you wish to speak about in that outline, and you’ll have a much better and easier time creating posts for your site.
+
+I also recommend to **commit changes moderately**, not *too often* or *rarely*. Only when you make *major changes* should you commit to them first, unless you’re correcting a mistake or a bug or only making a minor update to a finished post.
+
+I hope you found some value in this guide, and I hope you’ll enjoy working with Jekyll as much as I do!
