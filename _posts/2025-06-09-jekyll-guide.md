@@ -8,19 +8,23 @@ image: /assets/img/jekyll.png
 ---
 
 ## Why Learn Jekyll?
-Jekyll is a free static site generator that is vastly more simple than other website learning models like HTML and CSS, yet complex enough for recruiters to care about this particular skill. It’s open source, easy to learn, and allows for free hosting on Github. I’m confident that Jekyll will be a great asset to anyone who decides to learn it, especially to those who have never made or learned how to make a traditional website before.
+Jekyll is a free static site generator that uses vastly more simple file types than other websites using `HTML` and `CSS`. Yet it's complex enough for recruiters to care about this particular skill.
 
-## Prerequisites
+It’s open source, easy to learn, and allows for free hosting on `Github`. I’m confident that Jekyll will be a great asset to anyone who decides to learn it, especially to those who have never made or learned how to make a traditional website before.
+
+## Step 0: Prerequisites
 This guide will be using the Windows installation and configuration process.
 
 #### Having VS Code installed
-I highly recommend using VS Code when dealing with Jekyll sites. It lets you edit the files within your Jekyll site, it has built in version control using Git and Github, and it also has a terminal with various types of shells, such as WSL, Git Bash, Powershell, and more. Some of these you’ll have to download, some are pre-installed. Either way, VS Code is exceptional, I use it for my site and for other things, and I think you should as well.
+I highly recommend using `VS Code` when dealing with Jekyll sites. It lets you edit the files within your Jekyll site, it has built in version control using Git and Github, and it also has a terminal with various types of shells, such as `WSL`, `Git Bash`, `Powershell`, and more. Some of these you’ll have to download, some are pre-installed. Either way, VS Code is exceptional, I use it for my site and for other things, and I think you should as well.
 
 #### Understanding the CLI
-Jekyll sites are created, maintained, and updated using the Command Line Interface terminal and an IDE to manage files. If you’ve never used the Terminal before, I suggest searching up some guides on Youtube to learn it at a basic level. Beyond that isn’t required for Jekyll, but it will be to your benefit.
+Jekyll sites are created, maintained, and updated using the `Command Line Interface` terminal and an `IDE`, like **VS Code**, to manage files. If you’ve never used the Terminal before, I suggest searching up some guides on Youtube to learn it at a basic level.
+
+Beyond this isn’t required for Jekyll, but it will be to your benefit.
 
 #### Downloading Ruby
-To download Ruby, navigate to Ruby’s website and download the most stable version of the Ruby+Devkit installer, and for the purpose of this guide, it’s the `Ruby+Devkit 3.3.8-1 (x64)` installer. This is due to the Gem file error only being fixable using this version, as far as I'm aware.
+To download `Ruby`, navigate to Ruby’s website and download the most stable version of the Ruby+Devkit installer, and for the purpose of this guide, it’s the `Ruby+Devkit 3.3.8-1 (x64)` installer. This is due to the **Gem file error** only being fixable using this version, as far as I'm aware.
 
 ![Ruby Installers](https://raw.githubusercontent.com/SalihWarsama/salihwarsama.github.io/34577169f887319d2742e7a882f4618d54565aec/assets/img/ruby-install-jekyll.png)
 
@@ -37,19 +41,21 @@ Click the Finish button and wait for the Terminal to open.
 > This is an **older screenshot**. It should say `“RubyInstaller 3 For Windows”` since we installed version `3.3.8-1`.
 {: .prompt-info }
 
-The Terminal will ask for user input beyond this point, and the options given are 1, 2, and 3. You can just hit the Enter key if you’re unsure, but it’s better to be safe and download all the options separately by inputting 1 and hitting enter, then similarly for 2 and 3.
+The Terminal will ask for user input beyond this point, and the options given are `1`, `2`, and `3`. You can just hit the Enter key if you’re unsure, but it’s better to be safe and download all the options separately by inputting `1` and hitting enter, then similarly for `2` and `3`.
 
-If prompted to enter Y or N at any point when installing these options, always enter Y to continue.
+If prompted to enter `Y` or `N` at any point when installing these options, always enter `Y` to continue.
 
 Once all options have been installed, you may close the Terminal.
 
 #### BONUS: Having Git Installed
-I highly recommend installing Git because Jekyll works with it very well, so well that Jekyll automatically creates Git related files like the .gitignore file to maximize efficiency. You can download Git here.
+I highly recommend installing Git because Jekyll works with it very well, so well that Jekyll automatically creates Git related files like the `.gitignore` file to maximize efficiency. You can download Git here.
 
 #### BONUS X2: Having a Github Account
-I also highly recommend creating a Github account. Just head to Github.com and create one there. It’s free, you get access to many developer benefits such as creating repositories and contributing to others, and when coupled with Jekyll, you can host your website on the cloud for free using Github Pages. You can create an unlimited amount of project sites, but only one if it’s a personal site.
+I also highly recommend creating a Github account. Just head to Github.com and create one there. It’s free, you get access to many developer benefits such as creating repositories and contributing to others, and when coupled with Jekyll, you can host your website on the cloud for free using `Github Pages`.
 
-## How to Download Jekyll with Bundler
+You can create an unlimited amount of project sites, but only one if it’s a personal site.
+
+## Step 1: Downloading Jekyll with Bundler
 Now you’re ready to download Jekyll with the Bundler gem.
 
 Open your Terminal, and type in:
@@ -88,8 +94,8 @@ This is because the command without `sudo` won’t work in WSL due to permission
 > Check if bundler is properly installed as well by typing in `bundler -v`.
 {: .prompt-info }
 
-## How to Fix the Gem File Error
-If an error shows up, usually a long error talking about “unsigned ints” or something, then you have encountered the Gem File error.
+#### How to Fix the Gem File Error
+If an error shows up, usually a long error talking about *unsigned ints* or something, then you have encountered the Gem File error.
 
 Don’t worry, thanks to Ruby contributors on Github helping me after opening up an issue, there is a fix.
 
@@ -142,7 +148,7 @@ It should install correctly by this point with no further errors.
 > If you're *still* getting an error, I recommend **opening a Github issue** on the Ruby installer's Github repository [here](https://github.com/oneclick/rubyinstaller2/issues/).
 {: .prompt-info }
 
-## How to Create a Site
+## Step 2: Creating a Site
 To create a site, all you have to do is open the terminal, switch to your desired directory if you want, and type in:
 
 ```powershell
@@ -151,7 +157,7 @@ jekyll new (name of your site)
 
 And that’s it! Congratulations, you created your first Jekyll site.
 
-## How to "Serve" Your Site
+## Step 3: "Serving" Your Site
 “Serving” is just another way of viewing or starting your website locally. To do that, simply type into your terminal:
 
 ```powershell
@@ -172,7 +178,7 @@ In the future, to serve your site you’ll only need to type:
 jekyll serve
 ```
 
-## How to Edit Your Site
+## Step 4: Editing Your Site
 To understand how to edit your site, first you must understand what format or file types Jekyll employs for editing its contents.
 
 Jekyll primarily uses two file types: `YAML` and `Markdown`.
@@ -316,14 +322,16 @@ Posts are generally more important than Pages for Jekyll when you’re first sta
 
 For more information on Pages in Jekyll, I recommend watching [this tutorial](https://www.youtube.com/watch?v=1na-IWfv08M&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB&index=9).
 
-## Themes
+## Step 5: Adding Themes
 Themes are very important within Jekyll, in fact, it’s probably one of the first things you want to decide on when creating a site. Sure, the Minima theme is nice, minimal, and has a lot of functionality–a lot more functionality than most themes you’ll come across actually–but it may not be what you want.
 
 Don’t worry, there are plenty of themes out there, both free and paid. If you want to change your theme, first you have to find your theme online.
 
-The best place to look for free Jekyll themes is [Jamstack Themes](https://jamstackthemes.dev/ssg/jekyll/). Check out all the themes they have through their demos, and when you find a theme you like, just click on “Github” and scroll to the README section beneath the code, which is where you’ll usually find instructions on how to install and apply the theme.
+The best place to look for free Jekyll themes is [Jamstack Themes](https://jamstackthemes.dev/ssg/jekyll/). Check out all the themes they have through their demos!
 
-## Working with Git
+When you find a theme that you like on there, just click on the `Github` button and scroll to the `README` section beneath the code, which is where you’ll usually find instructions on how to install and apply the theme.
+
+## Step 6: Working with Git
 This section will assume that you: already have Git installed, and have a basic understanding of Git and its workflow.
 
 The Git workflow pairs perfectly with Jekyll, especially since Jekyll automatically creates the ideal `.gitignore` file and makes maintaining your site a lot better and more efficient.
@@ -336,7 +344,7 @@ git init
 
 Now you’ll be able to make changes in your files, like your posts, stage them, and commit them with a message, taking full advantage of all the benefits that Git’s version control offers.
 
-## Working with Github and Github Pages
+## Step 7: Working with Github and Github Pages
 This section will assume that you: already have a Github account, and have a basic understanding of Github and its workflow.
 
 Github is also a great thing to utilize alongside Git when it comes to maintaining your site. With Github, you’ll be able to store your files on the cloud, update and retrieve them whenever you like, and revert any changes if necessary.
