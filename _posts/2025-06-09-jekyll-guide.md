@@ -282,6 +282,7 @@ This is being *created* on a **Friday** ~~Saturday~~.
 Serve this and see how it looks on your site!
 ```
 
+### Creating Pages
 As I said, the `Minima` theme allows you to create pages as well. To create a page, create a new folder called _pages, open the folder, and create a new markdown file with the .md extension.
 
 Add frontmatter elements, like how you did for your first post above, but instead of the “post” layout, enter “page” into layout:
