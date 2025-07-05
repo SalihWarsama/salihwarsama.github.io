@@ -43,10 +43,10 @@ If prompted to enter Y or N at any point when installing these options, always e
 
 Once all options have been installed, you may close the Terminal.
 
-#### Bonus: Having Git Installed
+#### BONUS: Having Git Installed
 I highly recommend installing Git because Jekyll works with it very well, so well that Jekyll automatically creates Git related files like the .gitignore file to maximize efficiency. You can download Git here.
 
-#### Double bonus: having a Github account.
+#### BONUS X2: Having a Github Account
 I also highly recommend creating a Github account. Just head to Github.com and create one there. It’s free, you get access to many developer benefits such as creating repositories and contributing to others, and when coupled with Jekyll, you can host your website on the cloud for free using Github Pages. You can create an unlimited amount of project sites, but only one if it’s a personal site.
 
 ## How to Download Jekyll with Bundler
@@ -82,10 +82,11 @@ sudo gem install jekyll bundler
 
 This is because the command without `sudo` won’t work in WSL due to permission issues.
 
-> **This is where the Gem file error typically appears**. If no error shows up, type in `jekyll -v`. If there's still no error, you successfully downloaded Jekyll and can safely skip the next section about the gem file error..
+> **This is where the Gem file error typically appears**. If no error shows up, and typing in `jekyll -v` doesn't return an error either, you successfully downloaded Jekyll and can safely skip the next section about the gem file error.
 {: .prompt-warning }
 
-Also check to see if bundler is properly installed by typing in `bundler -v`.
+> Check if bundler is properly installed as well by typing in `bundler -v`.
+{: .prompt-info }
 
 ## How to Fix the Gem File Error
 If an error shows up, usually a long error talking about “unsigned ints” or something, then you have encountered the Gem File error.
