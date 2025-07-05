@@ -34,7 +34,7 @@ Click the Finish button and wait for the Terminal to open.
 
 ![Ruby CLI](https://raw.githubusercontent.com/SalihWarsama/salihwarsama.github.io/34577169f887319d2742e7a882f4618d54565aec/assets/img/ruby-ridk-cli.png)
 
-> Note: This is an older screenshot. It should say `“RubyInstaller 3 For Windows”` since we installed version `3.3.8-1`.
+> This is an **older screenshot**. It should say `“RubyInstaller 3 For Windows”` since we installed version `3.3.8-1`.
 {: .prompt-info }
 
 The Terminal will ask for user input beyond this point, and the options given are 1, 2, and 3. You can just hit the Enter key if you’re unsure, but it’s better to be safe and download all the options separately by inputting 1 and hitting enter, then similarly for 2 and 3.
@@ -82,7 +82,7 @@ sudo gem install jekyll bundler
 
 This is because the command without `sudo` won’t work in WSL due to permission issues.
 
-> Disclaimer: this is where the gem file error typically appears. If no error shows up, type in `jekyll -v` and if no error shows up, you successfully downloaded Jekyll and can safely skip the next section about the gem file error.
+> **This is where the Gem file error typically appears**. If no error shows up, type in `jekyll -v`. If there's still no error, you successfully downloaded Jekyll and can safely skip the next section about the gem file error..
 {: .prompt-warning }
 
 Also check to see if bundler is properly installed by typing in `bundler -v`.
@@ -138,11 +138,11 @@ gem install jekyll bundler
 
 It should install correctly by this point with no further errors.
 
->If you're still getting an error, I recommend opening a Github issue on the public repository for the Ruby installer here.
+> If you're *still* getting an error, I recommend **opening a Github issue** on the Ruby installer's Github repository [here](https://github.com/oneclick/rubyinstaller2/issues/).
 {: .prompt-info }
 
 ## How to Create a Site
-To create a site, all you have to do is open the terminal, switch to your desired directory if you want, and type in: 
+To create a site, all you have to do is open the terminal, switch to your desired directory if you want, and type in:
 
 ```powershell
 jekyll new (name of your site)
@@ -157,7 +157,7 @@ And that’s it! Congratulations, you created your first Jekyll site.
 bundle exec jekyll serve
 ```
 
-The terminal should link you the address to your site. 
+The terminal should link you the address to your site.
 
 If you’re unsure how to get to your site, just open up a new tab in your browser and type in `localhost:4000`. You should see your site with all the default settings.
 
@@ -181,13 +181,13 @@ It’s extremely easy to use, requires no prior HTML or CSS knowledge to use, an
 
 Where Jekyll employs YAML the most is in the _config.yml file and in the frontmatter of Jekyll posts (explained soon). Beneath the frontmatter, where the general content of Jekyll posts exist, is mostly in Markdown.
 
-### Config file
+### The Config File
 This is where most of the data of the site is stored. In YAML format, it contains all the defaults to your site, like which gem files you’re using, themes, icons, links, etc. You should be able to see the default installed theme, which is “Minima”. This will ultimately vary depending on which theme you use, but for the purpose of this guide, just leave the config file alone until you become acclimated to the Jekyll structure and workflow.
 
 ### Creating Posts
 Before creating a post for your site, navigate to the _posts folder in your site’s directory, and view the premade file that exists. This will be the general structure of most of your posts going forward: frontmatter at the top between the lines, content at the bottom. Now, create a new file using the YYYY-MM-DD-(file name) format with the .md or .markdown extension, and open it. After opening the file, you need to create some frontmatter. Remember, frontmatter uses YAML, even in Markdown files.
 
-### Frontmatter (disclaimer: must be blank or completely filled out for site to not break)
+### Frontmatter
 To create some frontmatter within your post, create a block for it by adding 3 new lines and typing in 3 hyphens at the top and bottom, like so:
 
 ```yaml
@@ -238,8 +238,13 @@ author: Salih Warsama
 Hello world! It’s great to be here.
 ```
 
+> Frontmatter information must be **completely filled out** or **completely blank** for your site to not break.
+{: prompt-warning }
+
 Now, serve up your site again at the local host address. You should see what you wrote now!
-You should know about how Markdown creates titles, headers, bullets, tables, pictures, and more.
+
+### Markdown Formatting
+You should also know about how Markdown creates titles, headers, bullets, tables, pictures, and more.
 
 Here’s a file setup that displays some of the many ways you can format within Markdown for your Jekyll posts:
 
@@ -335,7 +340,7 @@ Now, you’ve created a connection between your local Git repository and the clo
 
 Now that your site is stored in a repository on Github, you’ll have access to free website hosting through `Github Pages`.
 
-You’ll be able to view your website at: `(Github-username).github.io/(repository-name)/`. 
+You’ll be able to view your website at: `(Github-username).github.io/(repository-name)`.
 
 ## Closing
 You now have the skills to create, maintain, and customize any Jekyll site you create.
@@ -344,7 +349,7 @@ If you want to learn more about Jekyll or just a more in-depth understanding on 
 
 It’s highly informative and extremely helpful when it comes to the customization aspect.
 
->Keep in mind that the tutorial is a little dated, but I think it’s still helpful to the average individual seeking to learn Jekyll.
+>This tutorial is a *little dated*, but I think it’s still helpful to the average individual for learning Jekyll.
 {: .prompt-info }
 
 ### Some Advice
