@@ -76,7 +76,7 @@ gem install jekyll bundler
 
 If you’re using the WSL terminal, then type in:
 
-```wsl
+```bash
 sudo gem install jekyll bundler
 ```
 
