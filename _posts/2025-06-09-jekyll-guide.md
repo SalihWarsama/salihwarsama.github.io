@@ -82,7 +82,62 @@ sudo gem install jekyll bundler
 
 This is because the command without `sudo` won’t work in WSL due to permission issues.
 
-> Disclaimer: this is where the gem file error typically appears; if no error shows up, type in `jekyll -v` and if no error shows up, you successfully downloaded Jekyll and can safely skip the next section about the gem file error.
+> Disclaimer: this is where the gem file error typically appears. If no error shows up, type in `jekyll -v` and if no error shows up, you successfully downloaded Jekyll and can safely skip the next section about the gem file error.
 {: .prompt-warning }
 
 Also check to see if bundler is properly installed by typing in `bundler -v`.
+
+## How to Fix the Gem File Error
+If an error shows up, usually a long error talking about “unsigned ints” or something, then you have encountered the Gem File error.
+
+Don’t worry, thanks to Ruby contributors on Github helping me after opening up an issue, there is a fix.
+
+First, open the terminal and check the GCC version that was installed with the Ruby installer by typing in:
+
+```powershell
+ridk exec gcc --version
+```
+
+If the terminal returns `15.0.1` *or* a later version of 15, then that’s where the error is coming from. Apparently, `GCC version 15.0.1` changed many staple things, which caused a lot of issues with programs that updated to that version.
+
+To fix this, we’re going to have to *downgrade* to a previous version of GCC. To do that, since we already installed `Ruby+Devkit 3.3.8-1`, these next steps will be relatively simple.
+
+In the directory that your terminal uses, download the following files:
+```powershell
+https://github.com/ruby/setup-msys2-gcc/releases/download/msys2-packages/mingw-w64-ucrt-x86_64-gcc-14.2.0-3-any.pkg.tar.zst 
+https://github.com/ruby/setup-msys2-gcc/releases/download/msys2-packages/mingw-w64-ucrt-x86_64-gcc-14.2.0-3-any.pkg.tar.zst.sig 
+https://github.com/ruby/setup-msys2-gcc/releases/download/msys2-packages/mingw-w64-ucrt-x86_64-gcc-libs-14.2.0-3-any.pkg.tar.zst 
+https://github.com/ruby/setup-msys2-gcc/releases/download/msys2-packages/mingw-w64-ucrt-x86_64-gcc-libs-14.2.0-3-any.pkg.tar.zst.sig
+```
+
+Then, run the following commands in the terminal:
+
+```powershell
+ridk exec pacman.exe -Udd --noconfirm --noprogressbar mingw-w64-ucrt-x86_64-gcc-libs-14.2.0-3-any.pkg.tar.zst
+ridk exec pacman.exe -Udd --noconfirm --noprogressbar mingw-w64-ucrt-x86_64-gcc-14.2.0-3-any.pkg.tar.zst
+```
+
+You should see the following pop up in the terminal:
+```powershell
+warning: downgrading package mingw-w64-ucrt-x86_64-gcc-libs (15.1.0-1 ## > 14.2.0-3)
+```
+
+Complete the downgrade, and run this command againin your terminal:
+
+```powershell
+ridk exec gcc --version
+```
+
+You should now see `14.2.0-3` instead of any version of 15, meaning you have successfully downgraded.
+
+Now, try to install Jekyll with Bundler again:
+
+```powershell
+gem install jekyll bundler
+```
+
+It should install correctly by this point with no further errors.
+
+>If you're still getting an error, I recommend opening a Github issue on the public repository for the Ruby installer here.
+{: .prompt-info }
+
