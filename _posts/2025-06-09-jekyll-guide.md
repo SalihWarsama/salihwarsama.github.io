@@ -372,7 +372,7 @@ If you want to learn more about Jekyll or just a more in-depth understanding on 
 
 It’s highly informative and extremely helpful when it comes to the customization aspect.
 
->This tutorial is a *little dated*, but I think it’s still helpful to the average individual for learning Jekyll.
+>The Giraffe Academy tutorials are *pretty out of date*, but I still think it’s helpful to the average individual for learning Jekyll.
 {: .prompt-info }
 
 ### Some Advice
