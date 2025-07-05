@@ -323,7 +323,7 @@ git init
 
 Now you’ll be able to make changes in your files, like your posts, stage them, and commit them with a message, taking full advantage of all the benefits that Git’s version control offers.
 
-## Working with Github and Pages
+## Working with Github and Github Pages
 This section will assume that you: already have a Github account, and have a basic understanding of Github and its workflow.
 
 Github is also a great thing to utilize alongside Git when it comes to maintaining your site. With Github, you’ll be able to store your files on the cloud, update and retrieve them whenever you like, and revert any changes if necessary.
