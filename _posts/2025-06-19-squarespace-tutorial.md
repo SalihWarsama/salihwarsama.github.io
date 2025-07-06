@@ -31,23 +31,23 @@ Now that you’re convinced to try out Squarespace Domains, it’s time to find 
 
 Once you’ve created an account, type into the search bar any domain name you wish. I highly recommend making it short, memorable, and aligned with your brand.
 
-After hitting enter, Squarespace will tell you what all the available options are. If the domain you desire is available, it will tell you at the top of the results “exact match”. If that particular domain name isn’t available, Squarespace will also provide a “closest match” result, changing the TLD extension, which is usually from .com to .net or .org.
+After hitting enter, Squarespace will tell you what all the available options are. If the domain you desire is available, it will tell you the `Exact match` in green at the top of the results. If that particular domain name isn’t available, Squarespace will also provide a `Closest match` result in yellow with a different `TLD extension`, which is usually `.net` or `.org`.
 
 ![Squarespace Search](https://raw.githubusercontent.com/SalihWarsama/salihwarsama.github.io/refs/heads/main/assets/img/squarespace-buy-domains.png)
 
-After you’ve chosen the domain name with a TLD extension you desire, add it to your cart. Continue to checkout, put in your billing information, and confirm the purchase.
+After you’ve chosen the domain name with a `TLD` extension you desire, add it to your cart. Continue to checkout, put in your billing information, and confirm the purchase.
 
 If you’re not sure about buying a domain yet, don’t worry, I have already purchased a domain and will show you what all the options look like when configuring your domain.
 
 The following sections are all available to you on your initial purchase and require no additional purchase, with the website builder potentially being the only exception:
 
-- Overview page
-- Website Builder
-- DNS page
-- Email page
-- Activity log
-- Permissions
-- Billing
+- **Overview page**
+- **Website Builder**
+- **DNS page**
+- **Email page**
+- **Activity log**
+- **Permissions**
+- **Billing**
 
 ### Overview
 The **Overview** section provides all the major settings you can adjust, such as the billing cycle of the domain, `WHOIS` privacy protection, and a domain lock. 
@@ -57,7 +57,7 @@ I recommend leaving all these settings alone. This section also has your billing
 ![Overview](https://raw.githubusercontent.com/SalihWarsama/salihwarsama.github.io/refs/heads/main/assets/img/sqsp-domain-settings.png)
 
 ### Website
-If you did want to use the website builder, you can navigate to the Website section and clicking on the `GET STARTED` button.
+If you did want to use the website builder, you can navigate to the **Website** section and clicking on the `GET STARTED` button.
 
 It will take you to a new link on the original Squarespace site where you can define what kind of website you want, what elements you want to have, the purpose of your website, etc. You may also find this option on the Overview page in the bottom right.
 
@@ -95,7 +95,7 @@ Since no activity has occurred with this new domain, nothing will appear.
 ![Activity](https://raw.githubusercontent.com/SalihWarsama/salihwarsama.github.io/refs/heads/main/assets/img/sqsp-activity.png)
 
 ### Permissions
-In the Permissions section, you can view everyone who has access to your domain settings from the highest and lowest levels.
+In the **Permissions** section, you can view everyone who has access to your domain settings from the highest and lowest levels.
 
 You can also invite others to be your Domain Manager, but be careful who you give these permissions to, as they can adjust these settings however they please once given access.
 
