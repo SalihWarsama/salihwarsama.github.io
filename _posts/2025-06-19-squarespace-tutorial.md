@@ -35,9 +35,7 @@ After hitting enter, Squarespace will tell you what all the available options ar
 
 ![Squarespace Search](https://raw.githubusercontent.com/SalihWarsama/salihwarsama.github.io/refs/heads/main/assets/img/squarespace-buy-domains.png)
 
-After you’ve chosen the domain name with a TLD extension you desire, add it to your cart.
-
-Continue to checkout, put in your billing information, and confirm the purchase.
+After you’ve chosen the domain name with a TLD extension you desire, add it to your cart. Continue to checkout, put in your billing information, and confirm the purchase.
 
 If you’re not sure about buying a domain yet, don’t worry, I have already purchased a domain and will show you what all the options look like when configuring your domain.
 
@@ -52,9 +50,9 @@ The following sections are all available to you on your initial purchase and req
 - Billing
 
 ### Overview
-The overview section provides all the major settings you can adjust, such as the billing cycle of the domain, WHOIS privacy protection, and a domain lock. 
+The **Overview** section provides all the major settings you can adjust, such as the billing cycle of the domain, `WHOIS` privacy protection, and a domain lock. 
 
-I recommend leaving all these settings alone. This section also has your billing information and an option to start building a website using Squarespace, but if you’re familiar with my Jekyll guide, you’ll know that a typical website builder like Squarespace may not be necessary, especially for personal or static sites.
+I recommend leaving all these settings alone. This section also has your billing information and an option to start building a website using Squarespace, but if you’re familiar with my [Jekyll guide](https://salihwarsama.github.io/posts/jekyll-guide/), you’ll know that a typical website builder like Squarespace may not be necessary, especially for personal or static sites.
 
 ![Overview](https://raw.githubusercontent.com/SalihWarsama/salihwarsama.github.io/refs/heads/main/assets/img/sqsp-domain-settings.png)
 
@@ -66,31 +64,31 @@ It will take you to a new link on the original Squarespace site where you can de
 ![Website Builder](https://raw.githubusercontent.com/SalihWarsama/salihwarsama.github.io/refs/heads/main/assets/img/sqsp-website-settings.png)
 
 ### DNS
-The DNS page has 4 main sections: DNS settings, Domain Nameservers, Nameserver Registration, and DNSSEC.
+The DNS page has 4 main sections: `DNS settings`, `Domain Nameservers`, `Nameserver Registration`, and `DNSSEC`.
 
-The DNS settings subsection displays all the DNS records for your domain, as well as all the services your domain is using like domain forwarding and email services.
+The **DNS settings** subsection displays all the DNS records for your domain, as well as all the services your domain is using like domain forwarding and email services.
 
 ![DNS Settings 1](https://raw.githubusercontent.com/SalihWarsama/salihwarsama.github.io/refs/heads/main/assets/img/sqsp-dns-settings.png)
 
 ![DNS Settings 2](https://raw.githubusercontent.com/SalihWarsama/salihwarsama.github.io/refs/heads/main/assets/img/sqsp-dns-settings-2.png)
 
-The Domain Nameservers subsection simply shows your default Squarespace nameservers, which are the determiner in how your domain is found, as well as giving you the option to use custom nameservers.
+The **Domain Nameservers** subsection simply shows your default Squarespace nameservers, which are the determiner in how your domain is found, as well as giving you the option to use custom nameservers.
 
-The Nameserver Registration subsection allows you to create a host record to associate a nameserver with an IP address.
+The **Nameserver Registration** subsection allows you to create a host record to associate a nameserver with an IP address.
 
 ![DNS Nameservers](https://raw.githubusercontent.com/SalihWarsama/salihwarsama.github.io/refs/heads/main/assets/img/sqsp-dns-nameservers.png)
 
-Lastly, the DNSSEC(DNS Security Extensions) subsection simply contains a switch to DNS security extensions to make your domain much more secure, and I recommend leaving this setting on.
+Lastly, the **DNSSEC(DNS Security Extensions)** subsection simply contains a switch to DNS security extensions to make your domain much more secure, and I recommend leaving this setting on.
 
 ### Email
-In the Email section, you can create your own custom email alias using your domain. You can use any email that you currently use and create an alias for it with your domain name.
+In the **Email** section, you can create your own custom email alias using your domain. You can use any email that you currently use and create an alias for it with your domain name.
 
 For example, if you had a domain named `mysite.com`, and an email named `mybusiness@gmail.com`, you could replace it with an alias like `business@mysite.com` and all emails sent to the alias would get sent into the inbox of your original email. More professional emails, at no additional cost.
 
 ![Email Settings](https://raw.githubusercontent.com/SalihWarsama/salihwarsama.github.io/refs/heads/main/assets/img/sqsp-email-settings.png)
 
 ### Activity
-In the Activity section, you can see all the actions taken by the domain name owner(s) and manager(s) from the past 90 days.
+In the **Activity** section, you can see all the actions taken by the domain name owner(s) and manager(s) from the past 90 days.
 
 Since no activity has occurred with this new domain, nothing will appear.
 
@@ -104,7 +102,7 @@ You can also invite others to be your Domain Manager, but be careful who you giv
 ![Permissions](https://raw.githubusercontent.com/SalihWarsama/salihwarsama.github.io/refs/heads/main/assets/img/sqsp-permissions.png)
 
 ### Billing
-In the billing section, you can see all your billing information and the payment method you used to purchase the domain.
+In the **Billing** section, you can see all your billing information and the payment method you used to purchase the domain.
 
 You may update anything as you wish, as it will not affect your original purchase or your auto-renew.
 
@@ -117,7 +115,7 @@ Additionally, if you wanted to know more about domains and what services your fa
 
 ![ICANN](https://raw.githubusercontent.com/SalihWarsama/salihwarsama.github.io/refs/heads/main/assets/img/sqsp-icann.png)
 
-This site will let you see all the DNS information, as well as what web services they use to host their site. This can help you get a better idea of what services you should use for your own site, especially if you liked a particular site’s overall design or specific elements.
+This site will let you see *all* the DNS information that it's allowed to show, as well as what web services they use to host their site. This can help you get a better idea of what services you should use for your own site, especially if you liked a particular site’s overall design or specific elements.
 
 ## Closing
 That's pretty much all you need to know about Squarespace Domains. It's fairly simple, easy to configure, and has a good price tag and billing cycle. I hope you found value in this short tutorial!
