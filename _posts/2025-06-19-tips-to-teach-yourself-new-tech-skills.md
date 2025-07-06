@@ -60,7 +60,7 @@ Don’t be that person who is too prideful to take notes or feels like they’re
 
 Also, don’t worry if your note taking habits aren’t as good as you want them to be. As you’ll see in the next tip, taking notes regardless of how good they are is *good practice*, and eventually you’ll get better at it!
 
-## Tip #7: Practice makes progress.
+## Tip #7: Practice makes *progress*.
 This tip is pretty straightforward. Just like with notes, **you won’t be any good at anything if you never apply yourself**.
 
 You’ll also be too nervous in any professional setting if you’ve never done the process yourself before. Just don’t let that be you.
