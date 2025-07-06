@@ -20,7 +20,7 @@ Technical knowledge is the type of knowledge that would differentiate somebody f
 
 For example, being able to set up a website quickly on your own is a useful skill to have that employers will look at as a valuable asset, especially if you can build on it and adapt it to company needs.
 
-## Tip #1: Less = More
+## Tip #1: Less IS More.
 **Don’t try to learn everything** and cram all the skills into your head, but **only the skills you want or need for your ideal role**.
 
 Before making this site, I was trying to learn as many skills as possible, but when I realized it would take way too long to finish learning all those skills, I took another look at my curriculum. What I noticed is that about a third of what I was trying to learn didn’t apply to my field directly.
@@ -39,12 +39,12 @@ Passionate teachers care about what they teach and how they teach it, and as a r
 
 Teachers like that keep you in the know about big news and events within their field, as well as pointing you to resources that they recommend. This ends up making you and everyone they teach passionate and better learners.
 
-## Tip #4: Worry less about equipment and focus more on your work being valuable 
+## Tip #4: Worry less about equipment and focus more on your work being valuable .
 Of course, equipment and software *are* important. However, recruiters and employers *don’t* really care about what software or equipment you use, they care more about **your work being valuable**, to them and their stakeholders.
 
 In fact, if you aren’t already aware, they can provide you with all the best tools and software if they hire you, but they’ll only hire you if you’re worth hiring, and you’re only worth hiring *if* you have skills that are *valuable* and ***a portfolio** that proves it*.
 
-## TIp #5: Start with free & open-source
+## TIp #5: Start with free & open-source.
 I shouldn’t have to explain why you should start off with free resources first, but open-source might need an explanation.
 
 It’s not a bad thing to use a resource that’s free yet not open-source, in fact, I’d recommend using it *if it’s what you’re looking for*. However, open-source is usually 1) *easier on storage*, 2) *have no strings attached* (i.e. no free trials or require any personal information), and 3) *usually made by passionate individuals who don’t care about making money and care more about making the best tool possible*.
@@ -60,13 +60,13 @@ Don’t be that person who is too prideful to take notes or feels like they’re
 
 Also, don’t worry if your note taking habits aren’t as good as you want them to be. As you’ll see in the next tip, taking notes regardless of how good they are is *good practice*, and eventually you’ll get better at it!
 
-## Tip #7: Practice makes perfect.
+## Tip #7: Practice makes progress.
 This tip is pretty straightforward. Just like with notes, **you won’t be any good at anything if you never apply yourself**.
 
 You’ll also be too nervous in any professional setting if you’ve never done the process yourself before. Just don’t let that be you.
 
 ## Tip #8: Track your progress, because untracked progress is as good as no progress (mentally).
-Tracking your progress will give you a reason to keep moving forward and give you insight on how far you’ve come.
+Speaking of progress, tracking your progress will give you a reason to keep moving forward, while also giving you insight on how far you’ve come.
 
 It’ll also help you monitor your pace, like you having to pick up the pace with the next learning objective if a certain software you’ve been learning took too long to understand.
 
