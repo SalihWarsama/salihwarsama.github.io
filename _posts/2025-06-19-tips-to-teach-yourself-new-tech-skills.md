@@ -77,7 +77,7 @@ In my case, I consolidated all my skills in technical writing, IT, UX, AI, open-
 
 Take the opportunity to put your mind to something that will show peers and employers *how hard you work*.
 
-## Tip #10: Try to enjoy the process, because if you don’t, you might need to switch gears or careers.
+## Tip #10: Try to enjoy the process, and if you don’t, you might need to switch gears or careers.
 **No sugarcoating**, and **no lying to yourself**. Otherwise you’ll put yourself into a hole of a career that you’ll feel there’s no getting out of.
 
 In fact, my *biggest* fear when it comes to career building is “being stuck” in a job that I hate!
