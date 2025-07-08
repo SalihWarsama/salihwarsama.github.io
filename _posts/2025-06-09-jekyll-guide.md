@@ -274,13 +274,14 @@ Here’s a file setup that displays some of the many ways you can format within 
 ## Subheading
 
 This is a test for my markdown file.
+more text that will still appear on the same line
 
-more text
+text that will appear on a new line
 
-- first
-- second
-- third
-  - indent  
+- first bullet
+- second bullet
+- third bullet
+  - sub bullet
     1. inner number
 
 [this is the description for an embedded link](https://www.github.com)
