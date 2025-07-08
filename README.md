@@ -1,5 +1,5 @@
 # Hello!
-My name is Salih, a `Technical Communications` graduate from `The Ohio State University` and currently working as a `Freelance Technical Writer` in the US.
+My name is Salih, a `Communication Technology` graduate from `The Ohio State University` and currently working as a `Freelance Technical Writer` in the US.
 - [My Github Portfolio](https://github.com/SalihWarsama/)
 - [My LinkedIn](https://www.linkedin.com/in/salihwarsama/)
 
