@@ -68,7 +68,7 @@ You’ll also be too nervous in any professional setting if you’ve never done 
 ## Tip #8: Track your progress, because untracked progress is as good as no progress (mentally).
 Speaking of progress, tracking your progress will give you a reason to keep moving forward, while also giving you insight on how far you’ve come.
 
-It’ll also help you monitor your pace, like you having to pick up the pace with the next learning objective if a certain software you’ve been learning took too long to understand.
+It’ll also help you monitor and adjust your pace, such as speeding up with your next learning objective if something took too long to understand.
 
 ## Tip #9: Consolidate what you’ve learned into something, like a website or portfolio.
 This puts **a real goal** in your mind, and something for employers to look at to really gauge not only your skills but your *initiative*.
